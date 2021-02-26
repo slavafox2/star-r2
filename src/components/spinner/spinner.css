@@ -1,0 +1,55 @@
+
+/* https://loading.io/ */
+@keyframes ldio-0amldnzb408 {
+
+    0%,
+    100% {
+        animation-timing-function: cubic-bezier(0.45, 0, 0.9, 0.55)
+    }
+
+    0% {
+        transform: translate(0, 0)
+    }
+
+    50% {
+        transform: translate(0, 54px);
+        animation-timing-function: cubic-bezier(0, 0.45, 0.55, 0.9);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+.ldio-0amldnzb408 div {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: #ffffff;
+    left: 37px;
+    top: 10px;
+    animation: ldio-0amldnzb408 1s linear infinite;
+}
+
+.loadingio-spinner-ball-ynp4er771op {
+    width: 78px;
+    height: 78px;
+    display: inline-block;
+    overflow: hidden;
+    background: #222222;
+}
+
+.ldio-0amldnzb408 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform: translateZ(0) scale(0.78);
+    backface-visibility: hidden;
+    transform-origin: 0 0;
+    /* see note above */
+}
+
+.ldio-0amldnzb408 div {
+    box-sizing: content-box;
+}

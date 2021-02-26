@@ -1,0 +1,26 @@
+.item-details {
+  display: flex;
+  /* margin-top: 1rem; */
+  flex-direction: row;
+  padding: 1rem;
+}
+
+.item-details .item-image {
+  /* width: 30%; */
+  width: auto;
+  max-height: 210px;
+  /* overflow: hidden; */
+  /* display: block; */
+  /* width: 30%;
+  height: 30%; */
+  /* box-sizing: content-box; */
+  border-radius: 10px;
+}
+
+.item-details .list-group-item {
+  padding: 0.25rem;
+}
+
+.item-details .list-group-item .term {
+  margin-right: 0.5rem;
+}

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <!-- <link rel="stylesheet" href="%PUBLIC_URL%/bootstrap.css" /> -->
+  <link rel="stylesheet" href="./bootstrap.css" />
+  <link rel="stylesheet" href="./bootstrap_my_for_html_full.css" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+  <title>full HTML</title>
+</head>
+
+<body>
+
+  <div>
+    <!-- <Header /> -->
+    <div class="header d-flex">
+      <h3>
+        <a href="#">Star DB</a>
+      </h3>
+      <ul class="d-flex">
+        <li>
+          <a href="#">People</a>
+        </li>
+        <li>
+          <a href="#">Planets</a>
+        </li>
+        <li>
+          <a href="#">Starships</a>
+        </li>
+      </ul>
+    </div>
+    <!-- end <Header /> -->
+
+    <!-- <RandomPlanet /> -->
+    <div class="random-planet  jumbotron-my rounded-my">
+      <img class="planet-image" src="https://starwars-visualguide.com/assets/img/planets/5.jpg" />
+      <div>
+        <h4>Planet Name</h4>
+        <ul class="list-group-my list-group-flush-my">
+          <li class="list-group-item">
+            <span class="term">Population</span>
+            <span>123124</span>
+          </li>
+          <li class="list-group-item">
+            <span class="term">Rotation Period</span>
+            <span>43</span>
+          </li>
+          <li class="list-group-item">
+            <span class="term">Diameter</span>
+            <span>100</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+
+    <!-- end <RandomPlanet /> -->
+
+    <div class="row mb2">
+      
+      <div class="col-md-6">
+        <!-- <ItemList /> -->
+        <ul class="item-list list-group">
+          <li class="list-group-item">
+            Luke Skywalker
+          </li>
+          <li class="list-group-item">
+            Darth Vader
+          </li>
+          <li class="list-group-item">
+            R2-D2
+          </li>
+        </ul>
+        <!-- eng <ItemList /> -->
+      </div>
+
+      <div class="col-md-6">
+        <!-- <PersonDetails /> -->
+        <div class="person-details card">
+          <img class="person-image" src="https://starwars-visualguide.com/assets/img/characters/3.jpg" />
+
+          <div class="card-body">
+            <h4>R2-D2</h4>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <span class="term">Gender</span>
+                <span>male</span>
+              </li>
+              <li class="list-group-item">
+                <span class="term">Birth Year</span>
+                <span>43</span>
+              </li>
+              <li class="list-group-item">
+                <span class="term">Eye Color</span>
+                <span>red</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- end <PersonDetails /> -->
+
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
+
+
+working with git: 
+
+Step 1 : Create branch
+git branch "branch name"
+
+Step 2 : Checkout branch
+git checkout "branch name"
+
+Step 3 : Merge new branch in master branch
+git merge "branch name"
+
+Step 4 : Delete branch
+git branch -d "branch name" // delete from local
+git push origin --delete "branch name" //delete from remote 
+# git push origin --delete new-branch-name-for-test-1
+
+
+... 
+1. create local file with data
+2. create empty "name"-repository  
+3. in VS code "add remote" by provided gihhub-link on repository
+4. made steps for commit: 
+-commit (message) under the file
+-make stage changes (by plus)
+-update commit
+
+
+..........................................
+
+Прежде всего, заверните Src в {}
+
+Тогда, если вы используете Webpack; Вместо того: <img src={"./logo.jpeg"} />
+
+Возможно, вам понадобится использовать require:
+
+<img src={require('./logo.jpeg')} />
+
+Другой вариант - сначала импортировать изображение как таковое:
+
+import logo from './logo.jpeg'; // with import
+
+или ...
+
+const logo = require('./logo.jpeg); // with require
+
+затем подключите его ...
+
+<img src={logo} />
+
+Я бы порекомендовал этот вариант, особенно если вы повторно используете источник изображения.
+
+
+............................................
+
+Note: You may need to set git credentials on your system using the commands
+git config --global user.email "you@example.com"
+ git config --global user.name "Your Name"
+
+Step 1 : Install git on your system
+Step 2 : Create account on github - https://github.com/
+Step 3 : Create a repository on github & copy url
+Step 4 : Goto VS Code and open project/folder
+
+note : check git is enabled from settings
+
+Step 5 : Goto source control section & click on git icon
+Step 6 : Give commit message & Commit the changes
+Step 7 : Add remote repo (github repo)
+Step 8 : Push commited changes to github repo
+Step 9 : Check changes on github repo
+
+
+............................................
+
+Tech to study for JS:
+. Click Hous / Postgres
+. expressJS
+. PM2 balancer
+. Cuard (writed on the express pages)
+. JEST(est)
+. PassportJS
+. HelmetJS
+. GraphQL
+. PostMan / Insomnia
+. shop/polime]
+............................................
+
+
+color customization for setting.json 
+
+    "[One Monokai]": {
+      "editor.background": "#000000",
+      "editor.lineHighlightBackground": "#000000",
+      "sideBar.background": "#000000"
+    }
+............................................
+
+
+working with Router:
+
+npm install react-router-dom
+
+............................................
