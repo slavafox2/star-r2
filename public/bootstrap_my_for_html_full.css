@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* <Header />  */
+
+.header {
+  margin-top: 0.5rem;
+}
+
+.header ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+}
+
+.header ul li:hover {
+  background-color: burlywood;
+}
+
+.header a:hover {
+  text-decoration: none;
+}
+
+.header h3 a {
+  color: white;
+}
+
+.header h3 a:hover {
+  color: #00bc8c;
+}
+
+/* <!-- end <Header /> -->
+
+<!-- <RandomPlanet /> --> */
+.random-planet {
+  display: flex;
+  padding: 1rem;
+}
+
+.rounded-my {
+  border-radius: 1rem !important;
+}
+
+.rounded {
+  border-radius: 1rem;
+}
+
+.jumbotron-my {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #9d3535;
+  border-radius: 0.3rem;
+}
+
+@media (min-width: 576px) {
+  .jumbotron-my {
+    padding: 4rem 2rem;
+  }
+}
+
+.random-planet .planet-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 15px;
+  margin-right: 1rem;
+}
+.random-planet .list-group {
+  margin: 1rem 0 0 1rem;
+}
+.list-group-my {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+}
+
+.list-group-flush-my {
+  border-radius: 0;
+}
+
+.random-planet .list-group-item {
+  padding: 0.25rem;
+}
+
+.random-planet .list-group-item .term {
+  margin-right: 5rem;
+}
+
+/* <!-- <RandomPlanet /> -->  */
+
+
+/* <!-- <ItemList /> --> */
+
+.item-list .list-group-item {
+  cursor: pointer;
+}
+.item-list .list-group-item:hover {
+  background-color: #444;
+}
+/* <!-- end<ItemList /> --> */
+
+
+/* <!--  <PersonDetails /> --> */
+
+.person-image {
+  width: min-content;
+}
+
+/* <!-- end <PersonDetails /> --> */
